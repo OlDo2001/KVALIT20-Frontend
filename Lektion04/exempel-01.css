@@ -1,0 +1,17 @@
+@media(min-width:300px){
+    body{
+        background-color: red;
+    }
+}
+
+@media(min-width:500px){
+    body{
+        background-color: green;
+    }
+}
+
+@media(min-width:800px){
+    body{
+        background-color: rgb(77, 53, 163);
+    }
+}
