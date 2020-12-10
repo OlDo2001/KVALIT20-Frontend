@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS- Exempel 5</title>
+    <script defer src="exempel-02.js"></script>
+</head>
+<body>
+    <h1>JS - Exempel 5</h1>
+    <h2>Att arbeta med objektet document </h2>
+    <h3>Metoden getElementById</h3>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+
+    <script>
+       
+       let divElement1 = document.getElementById("demo1");
+       console.log(divElement1);
+       //Lägga till HTML via JavaScript
+       divElement1.innerHTML= "<h1>Rubrik från JavaScript</h1>";
+
+       //Ändra CSS
+       divElement1.style.color = "#"
+
+    </script>
+</body>
+</html>

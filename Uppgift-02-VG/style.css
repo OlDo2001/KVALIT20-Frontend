@@ -1,0 +1,60 @@
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+  }
+  
+  .button {
+    margin: 5px;
+    background-color: #eea02a;
+    color: #060708;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .equal {
+    background-color: #888582;
+    color: #060708;  
+    width: 80px;
+    height: 355px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .op {
+    margin: 5px;
+    background-color: #888582;
+    color: #060708;
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .output {
+    background-color: #c5cbd1;
+    width: 360px;
+    height: 70px;
+    font-size: 70px;
+    text-align: right;
+    border: none;
+    outline: none;
+    color: rgb(15, 15, 15);
+    font-weight: 300;
+    border-radius: 5px 5px 0 0;
+    margin: 5px;
+  }
+  
