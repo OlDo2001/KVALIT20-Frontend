@@ -1,30 +1,40 @@
+/*
+ Project: Uppgift-02-VG
+ File: style.css
+ Klass: KVALIT20
+ Kurs: Frontend
+ Datum: 2020-12-11
+ Förtfatare: Olga Domorod
+*/
 
-  * {
+/*Allmänna regler*/
+* {
     margin: 0px;
     padding: 0px;
     border-radius: 5px;
-  }
+}
 
-  body {
+/*Miniräknarens position på skärmen*/
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
-  }
-  
-  .button {
+}
+
+/*Sifferknappar design*/  
+.button {
     margin: 5px;
     background-color: #eea02a;
     color: #060708;
     width: 80px;
     height: 80px;
     font-size: 20px;
-    cursor: pointer;
-    
-  }
-  
-  .equal {
+    cursor: pointer; 
+}
+
+ /*"Lika med " knappen design*/ 
+.equal {
     background-color: #888582;
     color: #060708;  
     width: 80px;
@@ -32,8 +42,10 @@
     margin: 5px;
     font-size: 20px;
     cursor: pointer;
-  }
-  .op {
+}
+
+/*Funktionknappar design*/
+.op {
     margin: 5px;
     background-color: #888582;
     color: #060708;
@@ -44,17 +56,18 @@
     cursor: pointer;
   }
   
-  .output {
+/*Miniräknare skärms design*/  
+.display {
     background-color: #c5cbd1;
     width: 360px;
     height: 70px;
+    font-weight: 300;
     font-size: 70px;
     text-align: right;
     border: none;
     outline: none;
     color: rgb(15, 15, 15);
-    font-weight: 300;
     border-radius: 5px 5px 0 0;
     margin: 5px;
-  }
+}
   
